@@ -8,7 +8,6 @@ public class DesignALinkedLIst {
      * obj.addAtTail(val);
      * obj.addAtIndex(index,val);
      * obj.deleteAtIndex(index);
-     *
      */
    // ["MyLinkedList","addAtHead","addAtTail","addAtIndex","get","deleteAtIndex","get","get","deleteAtIndex",
     // "deleteAtIndex","get","deleteAtIndex","get"]

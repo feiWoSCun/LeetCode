@@ -30,9 +30,8 @@ public class ArraySum {
 //还可以参考哈希表
         public static int[] twoSum(int[] nums, int target) {
             int[] res = new int[2];
-            if(nums == null || nums.length == 0){
+            if(nums == null || nums.length == 0)
                 return res;
-            }
             Map<Integer, Integer> map = new HashMap<>();
             for(int i = 0; i < nums.length; i++){
                 int temp = target - nums[i];

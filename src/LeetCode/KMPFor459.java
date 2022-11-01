@@ -12,7 +12,7 @@ class Solution459 {
             return true;
         char[] chars = s.toCharArray();
         int[] next = new int[s.length()];
-        for (int i = 1, j = 0; i < s.length(); i++) {
+        for (int i = 1, j = 0; i <chars.length; i++) {
             while (j > 0 && chars[i] != chars[j]) {
                 j = next[j - 1];
             }

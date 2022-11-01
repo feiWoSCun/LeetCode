@@ -20,6 +20,7 @@ class Solution454 {
                 int temp=nums3[i]+nums4[j];
                 ans+=hashMap.containsKey(-temp)?hashMap.get(temp):0;
             }
+
         }
         return ans;
     }
